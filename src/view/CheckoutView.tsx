@@ -15,7 +15,7 @@ import { clearCart } from "../redux/features/cart/cart.slice";
 import { useOrderManyProductMutation } from "../redux/features/product/product.api";
 import { useAppDispatch, useAppSelector } from "../redux/hooks";
 import { useFormik } from "formik";
-import { CreditCardIcon, DollarSignIcon } from "lucide-react";
+import { DollarSignIcon } from "lucide-react";
 import { useState } from "react";
 import PhoneInput, {
   isPossiblePhoneNumber,

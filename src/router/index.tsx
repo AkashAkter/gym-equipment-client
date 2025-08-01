@@ -5,11 +5,12 @@ import Product from "../pages/Product/Product";
 import ProductDetail from "../pages/ProductDetail/ProductDetail";
 import Cart from "../pages/Cart/Cart";
 import Checkout from "../pages/Checkout/Checkout";
-import ProductManageMent from "../pages/ProductManageMent/ProductManageMent";
 import AboutUs from "../pages/AboutUs/AboutUs";
 import ConfirmedOrder from "../pages/Checkout/ConfirmedOrder";
 import StripeWrapper from "../stripe/StripeWrapper";
-import NotFound from "../pages/shared/NotFound";
+import ProductManageMent from "@/pages/ProductManagement/ProductManagement";
+import NotFound from "@/pages/Shared/NotFound";
+
 const router = createBrowserRouter([
   {
     path: "/",

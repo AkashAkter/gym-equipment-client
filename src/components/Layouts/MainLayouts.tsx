@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import { useAppSelector } from "../../redux/hooks";
-import Navbar from "../../pages/shared/Navbar";
-import Footer from "../../pages/shared/Footer";
+import Footer from "@/pages/Shared/Footer";
+import Navbar from "@/pages/Shared/Navbar";
 
 const MainLayout = () => {
   const { items } = useAppSelector((state) => state.cart);
